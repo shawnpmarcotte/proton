@@ -11,10 +11,10 @@ const EventsDetail = () => {
                             <div className="blog-item">
                                 <div className="blog-img">
                                     <img src="/images/img19.jpg" alt="" />
-                            <span className="blog__tag">
-                                <span className="date__num-text">9</span>
-                                <span className="date__mon-text">mar</span>
-                            </span>
+                                    <span className="blog__tag">
+                                        <span className="date__num-text">9</span>
+                                        <span className="date__mon-text">mar</span>
+                                    </span>
                                 </div>
                             </div>
                         </div>

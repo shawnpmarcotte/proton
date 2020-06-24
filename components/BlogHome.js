@@ -47,7 +47,7 @@ const BlogHome = () => {
                                     </div>
                                     <div className="recent__content">
                                         <span>07 mar, 2019</span>
-                                        <h4><a href="single-news.html">Let’s together provide them a healthy food</a>
+                                        <h4><a href="single-news">Let’s together provide them a healthy food</a>
                                         </h4>
                                     </div>
                                 </li>

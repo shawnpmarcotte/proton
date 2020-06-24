@@ -1,28 +1,28 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class Footer extends Component {
-    constructor(){
+    constructor() {
         super()
         this.state = {
-          scrollBtn: false
+            scrollBtn: false
         }
     }
 
-    componentDidMount(){
+    componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
     }
 
     handleScroll = () => {
 
-      if (window.scrollY > 100) {
-        this.setState({
-            scrollBtn: true
-        });
-      } else if (window.scrollY < 100) {
-        this.setState({
-            scrollBtn: false
-        });
-      }
+        if (window.scrollY > 100) {
+            this.setState({
+                scrollBtn: true
+            });
+        } else if (window.scrollY < 100) {
+            this.setState({
+                scrollBtn: false
+            });
+        }
 
     }
 
@@ -52,12 +52,12 @@ class Footer extends Component {
                                                     <div className="col-lg-9">
                                                         <div className="form-group">
                                                             <input type="email" className="form-control"
-                                                                   placeholder="Email address" />
+                                                                placeholder="Email address" />
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-3">
                                                         <button className="theme-btn submit__btn"
-                                                                type="submit">subscribe
+                                                            type="submit">subscribe
                                                         </button>
                                                     </div>
                                                 </div>
@@ -74,33 +74,33 @@ class Footer extends Component {
                                 <div className="col footer-item footer-item1">
                                     <h3 className="widget__title">about</h3>
                                     <ul className="foot__links">
-                                        <li><a href="#">causes</a></li>
+                                        {/* <li><a href="#">causes</a></li> */}
                                         <li><a href="#">about</a></li>
-                                        <li><a href="#">New Campaign</a></li>
-                                        <li><a href="#">Site Map</a></li>
+                                        {/* <li><a href="#">New Campaign</a></li> */}
+                                        {/* <li><a href="#">Site Map</a></li> */}
                                         <li><a href="#">Events</a></li>
                                     </ul>
                                 </div>
                                 <div className="col footer-item footer-item2">
                                     <h3 className="widget__title">explore</h3>
                                     <ul className="foot__links">
-                                        <li><a href="#">Press Release</a></li>
+                                        {/* <li><a href="#">Press Release</a></li> */}
                                         <li><a href="#">contact</a></li>
                                         <li><a href="#">Blog Posts</a></li>
-                                        <li><a href="#">Social Connect</a></li>
-                                        <li><a href="#">Help Topics</a></li>
+                                        {/* <li><a href="#">Social Connect</a></li> */}
+                                        {/* <li><a href="#">Help Topics</a></li> */}
                                     </ul>
                                 </div>
                                 <div className="col footer-item footer-item3">
                                     <h3 className="widget__title">links</h3>
                                     <ul className="foot__links">
-                                        <li><a href="#">Podcasts</a></li>
+                                        {/* <li><a href="#">Podcasts</a></li> */}
                                         <li><a href="#">Privacy Policy</a></li>
                                         <li><a href="#">Videos</a></li>
                                         <li><a href="#">Terms of Use</a></li>
                                     </ul>
                                 </div>
-                                <div className="col footer-item footer-item3">
+                                {/* <div className="col footer-item footer-item3">
                                     <h3 className="widget__title">blog</h3>
                                     <ul className="foot__links">
                                         <li><a href="#">Care for All People</a></li>
@@ -108,7 +108,7 @@ class Footer extends Component {
                                         <li><a href="#">Being Volunteer</a></li>
                                         <li><a href="#">Raise fund to help</a></li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 <div className="col footer-item footer-item4">
                                     <h3 className="widget__title">contact</h3>
                                     <ul className="contact__info">
@@ -133,7 +133,7 @@ class Footer extends Component {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="copyright-desc">
-                                        <p>© Copyright 2020 by <a href="#">Layerdrops.com</a></p>
+                                        <p>© Copyright 2020 by Proton Ministries    | Powered by    <a href="https://prophecywebsolutions.com">Prophecy Web Solutions</a></p>
                                     </div>
                                 </div>
                             </div>

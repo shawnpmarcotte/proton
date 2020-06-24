@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Swiper from "react-id-swiper";
 import "swiper/css/swiper.css";
+import Link from "next/link";
+
 
 const SliderOne = () => {
   const [swiper, setSwiper] = useState(null);
@@ -32,9 +34,9 @@ const SliderOne = () => {
                         <h2 className="slider__title">
                           Proton Ministries Global Network
                         </h2>
-                        <a href="#" className="theme-btn">
-                          learn more
-                        </a>
+                        <Link href="/about"><a className="theme-btn">
+                          learn more About Us
+                        </a></Link>
                       </div>
                     </div>
                   </div>

@@ -74,12 +74,12 @@ class NavOne extends Component {
                   <div className="top-action-content info-action-content">
                     <div className="info-box info-box-2 d-flex align-items-center justify-content-end">
                       <ul className="top-action-list d-flex align-items-center">
-                        <li className="action__text">
+                        {/* <li className="action__text">
                           <a href="#">login</a>
                         </li>
                         <li className="action__text">
                           <a href="#">register</a>
-                        </li>
+                        </li> */}
                         <li>
                           <a href="#">
                             <i className="fa fa-twitter"></i>
@@ -90,11 +90,11 @@ class NavOne extends Component {
                             <i className="fa fa-facebook"></i>
                           </a>
                         </li>
-                        <li>
+                        {/* <li>
                           <a href="#">
                             <i className="fa fa-pinterest"></i>
                           </a>
-                        </li>
+                        </li> */}
                         <li>
                           <a href="#">
                             <i className="fa fa-instagram"></i>
@@ -110,7 +110,7 @@ class NavOne extends Component {
           <div
             className={`header-top header-menu-action ${
               this.state.sticky ? "header-fixed" : ""
-            }`}
+              }`}
           >
             <div className="container">
               <div className="row ostion-top-wrap">
@@ -145,7 +145,7 @@ class NavOne extends Component {
                               <Link href="/">
                                 <a>Home</a>
                               </Link>
-                              <ul className="dropdown-menu-item">
+                              {/* <ul className="dropdown-menu-item">
                                 <li>
                                   <Link href="/">
                                     <a>Home 1</a>
@@ -156,9 +156,9 @@ class NavOne extends Component {
                                     <a>Home 2</a>
                                   </Link>
                                 </li>
-                              </ul>
+                              </ul> */}
                             </li>
-                            <li>
+                            {/* <li>
                               <a href="#">causes</a>
                               <ul className="dropdown-menu-item">
                                 <li>
@@ -177,9 +177,9 @@ class NavOne extends Component {
                                   </Link>
                                 </li>
                               </ul>
-                            </li>
+                            </li> */}
                             <li>
-                              <a href="#">events</a>
+                              <Link href="/events"><a>events</a></Link>
                               <ul className="dropdown-menu-item">
                                 <li>
                                   <Link href="/events">
@@ -194,8 +194,8 @@ class NavOne extends Component {
                               </ul>
                             </li>
                             <li>
-                              <a href="#">news</a>
-                              <ul className="dropdown-menu-item">
+                              <Link href="/news"><a>Blog</a></Link>
+                              {/* <ul className="dropdown-menu-item">
                                 <li>
                                   <Link href="/news">
                                     <a>news</a>
@@ -206,7 +206,7 @@ class NavOne extends Component {
                                     <a>news detail</a>
                                   </Link>
                                 </li>
-                              </ul>
+                              </ul> */}
                             </li>
                             <li>
                               <a href="#">pages</a>
@@ -221,19 +221,19 @@ class NavOne extends Component {
                                     <a>gallery</a>
                                   </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                   <Link href="/volunteer">
                                     <a>become a volunteer</a>
                                   </Link>
-                                </li>
-                                <li>
+                                </li> */}
+                                {/* <li>
                                   <Link href="/team">
-                                    <a>our team</a>
+                                    <a>our Team</a>
                                   </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                   <Link href="/sponsor">
-                                    <a>sponsors</a>
+                                    <a>Affiliated Churches</a>
                                   </Link>
                                 </li>
                               </ul>
@@ -270,14 +270,14 @@ class NavOne extends Component {
                         <a>Home 1</a>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/index2">
                         <a>Home 2</a>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
-                <li className="sidenav__item">
+                {/* <li className="sidenav__item">
                   <a href="#">causes</a>
                   <span className="menu-plus-icon"></span>
                   <ul className="side-sub-menu">
@@ -297,7 +297,7 @@ class NavOne extends Component {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="sidenav__item">
                   <a href="#">event</a>
                   <span className="menu-plus-icon"></span>

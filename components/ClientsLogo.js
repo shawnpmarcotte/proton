@@ -5,31 +5,31 @@ import 'swiper/css/swiper.css';
 const ClientsLogo = () => {
 
     const params = {
-        slidesPerView : 5,
+        slidesPerView: 5,
         loop: true,
         speed: 1000,
-        spaceBetween : 30,
+        spaceBetween: 30,
         autoplay: {
             delay: 3000,
             disableOnInteraction: false
         },
         // Responsive breakpoints
         breakpoints: {
-            1499:{
-                slidesPerView : 5
+            1499: {
+                slidesPerView: 5
             },
 
-            991:{
-                slidesPerView : 3
+            991: {
+                slidesPerView: 3
             },
 
-            767:{
-                slidesPerView : 3
+            767: {
+                slidesPerView: 3
 
             },
 
-            575:{
-                slidesPerView : 2
+            575: {
+                slidesPerView: 2
             }
         }
     }
@@ -42,22 +42,22 @@ const ClientsLogo = () => {
                         <div className="client-logo">
                             <Swiper {...params}>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    Proton Ministries
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    Proton Ministries
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    Proton Ministries
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    Proton Ministries
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    Proton Ministries
                                 </div>
                                 <div className="client-logo-item">
-                                    <img src="/images/client-logo.png" alt="brand image" />
+                                    Proton Ministries
                                 </div>
                             </Swiper>
                         </div>
