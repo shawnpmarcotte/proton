@@ -124,15 +124,15 @@ class NavOne extends Component {
                             alt="Proton"
                             title="Proton"
                           /> */}
-                          <h1>Proton Minister</h1>
+                          <h1>Proton Ministries (logo)</h1>
                         </a>
                       </Link>
                     </div>
-                    <div className="header-btn ml-auto">
+                    {/* <div className="header-btn ml-auto">
                       <Link href="/donate">
                         <a className="theme-btn">donate now</a>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="col-lg-7 col-sm-7 ostion-menu">

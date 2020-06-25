@@ -31,7 +31,7 @@ class EntryArea extends Component {
                   <div className="col-lg-4">
                     <div className="entry-video-img">
                       <img
-                        src="/images/entry-video-img.jpg"
+                        src="/images/proton-video.png"
                         alt="entry-video-img"
                       />
                       <ModalVideo
@@ -52,7 +52,8 @@ class EntryArea extends Component {
                   <div className="col-lg-8">
                     <div className="entry-video-text">
                       <h4 className="entry__title">
-                        Maybe a video explain Proton and the purpose.
+                        Maybe a video explain Proton and the purpose. video de
+                        bienvenida
                       </h4>
                       <p className="entry__text">By Pastor Rodrigo</p>
                     </div>
