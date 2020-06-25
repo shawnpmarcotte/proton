@@ -110,7 +110,7 @@ class NavOne extends Component {
           <div
             className={`header-top header-menu-action ${
               this.state.sticky ? "header-fixed" : ""
-              }`}
+            }`}
           >
             <div className="container">
               <div className="row ostion-top-wrap">
@@ -120,7 +120,7 @@ class NavOne extends Component {
                       <Link href="/">
                         <a>
                           {/* <img
-                            src="/images/logo.png"
+                            src="/images/proton-logo-3.svg"
                             alt="Proton"
                             title="Proton"
                           /> */}
@@ -179,7 +179,9 @@ class NavOne extends Component {
                               </ul>
                             </li> */}
                             <li>
-                              <Link href="/events"><a>events</a></Link>
+                              <Link href="/events">
+                                <a>events</a>
+                              </Link>
                               <ul className="dropdown-menu-item">
                                 <li>
                                   <Link href="/events">
@@ -194,7 +196,9 @@ class NavOne extends Component {
                               </ul>
                             </li>
                             <li>
-                              <Link href="/news"><a>Blog</a></Link>
+                              <Link href="/news">
+                                <a>Blog</a>
+                              </Link>
                               {/* <ul className="dropdown-menu-item">
                                 <li>
                                   <Link href="/news">
