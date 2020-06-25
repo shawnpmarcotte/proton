@@ -119,12 +119,12 @@ class NavOne extends Component {
                     <div className="ostion-logo">
                       <Link href="/">
                         <a>
-                          {/* <img
-                            src="/images/proton-logo-3.svg"
+                          <img
+                            src="/images/proton-logo-7.png"
                             alt="Proton"
                             title="Proton"
-                          /> */}
-                          <h1>Proton Ministries (logo)</h1>
+                          />
+                          {/* <h1>Proton Ministries (logo)</h1> */}
                         </a>
                       </Link>
                     </div>
