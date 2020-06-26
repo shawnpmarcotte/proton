@@ -2236,7 +2236,7 @@ a:hover {
   right: 0;
   width: 413px;
   height: 698px;
-  background-color: #e36955;
+  background-color: #D7B557;
   z-index: -1;
 }
 .fun-content-wrap .fun-content .fun-item {
@@ -2265,12 +2265,12 @@ a:hover {
   margin-bottom: 13px;
 }
 .fun-content-wrap .fun-content .fun-item p {
-  color: #e36955;
+  color: #D7B557;
 }
 
 /*=== fun-content-slide ===*/
 .mixer-area2 .fun-content-slide {
-  background-color: #e36955;
+  background-color: black;
   margin-top: -344px;
   padding: 115px 0 100px 118px;
   position: relative;
@@ -2593,7 +2593,7 @@ a:hover {
   left: 0;
   font-size: 11px;
   text-transform: uppercase;
-  background-color: #424242;
+  background-color: black;
   color: #fff;
   font-weight: 600;
   letter-spacing: 1px;
@@ -2630,7 +2630,7 @@ a:hover {
 }
 .causes-area .blog-content-wrap .blog-content .blog-item .blog-inner-content {
   padding: 44px 45px 50px 50px;
-  background-color: #f2f0ec;
+  background-color: black;
 }
 .causes-area
   .blog-content-wrap
@@ -2649,7 +2649,7 @@ a:hover {
   .blog-inner-content
   .blog__title
   a {
-  color: #424242;
+  color: #fff;
   -webkit-transition: 0.3s ease-in;
   -moz-transition: 0.3s ease-in;
   -ms-transition: 0.3s ease-in;
@@ -2692,7 +2692,7 @@ a:hover {
   margin-bottom: 15px;
   font-size: 14px;
   font-weight: 600;
-  color: #424242;
+  color: #D7B557;
   position: relative;
   padding-left: 37px;
 }
@@ -2705,7 +2705,7 @@ a:hover {
   li
   i {
   font-size: 25px;
-  color: #424242;
+  color: #D7B557;
   top: 2px;
   left: 0;
   position: absolute;
@@ -2728,7 +2728,7 @@ a:hover {
   .blog__list
   li
   span {
-  color: #e36955;
+  color: #750f70;
 }
 
 .causes-area
@@ -2756,7 +2756,7 @@ a:hover {
   .blog-item1
   .barfiller
   .tip:before {
-  background-color: #50bac3;
+  background-color: #D7B557;
 }
 .causes-area
   .blog-content-wrap
@@ -2764,7 +2764,7 @@ a:hover {
   .blog-item1
   .barfiller
   .tip:after {
-  border-top-color: #50bac3;
+  border-top-color: #D7B557;
 }
 
 .causes-area
@@ -2792,7 +2792,7 @@ a:hover {
   .blog-item2
   .barfiller
   .tip:before {
-  background-color: #e36955;
+  background-color: #750f70;
 }
 .causes-area
   .blog-content-wrap
@@ -2800,7 +2800,7 @@ a:hover {
   .blog-item2
   .barfiller
   .tip:after {
-  border-top-color: #e36955;
+  border-top-color: #750f70;
 }
 .causes-area
   .blog-content-wrap
@@ -2885,7 +2885,7 @@ a:hover {
   .blog-item4
   .blog-inner-content
   .theme-btn:hover:after {
-  background-color: #424242;
+  background-color: #fff;
 }
 
 .causes-area
