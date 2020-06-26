@@ -9,7 +9,6 @@ const CausesArea = () => {
                         <div className="col-lg-8 mx-auto">
                             <div className="section-heading blog-heading text-center">
                                 <div className="section-icon">
-                                    <img src="/images/section-icon.png" alt="section-icon" />
                                 </div>
                                 <h2 className="section__title">Latest Causes</h2>
                                 <p className="section__meta">help us now</p>
@@ -48,7 +47,7 @@ const CausesArea = () => {
                                 <div className="blog-item blog-item2">
                                     <div className="blog-img">
                                         <img src="/images/img2.jpg" alt="" />
-                                            <span className="blog__tag"><i className="fa fa-flash"></i> trending</span>
+                                        <span className="blog__tag"><i className="fa fa-flash"></i> trending</span>
                                     </div>
                                     <div id="bar2" className="barfiller">
                                         <div className="tipWrap">

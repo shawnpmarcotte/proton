@@ -156,7 +156,7 @@ a:hover {
   top: 0;
   left: 1px;
   z-index: -1;
-  background: #000000;
+  background:#D7B557;
   -webkit-transform-origin: bottom left;
   transform-origin: bottom left;
   /* -webkit-transform: skew(-12deg, 0deg);
@@ -372,7 +372,7 @@ a:hover {
   li
   a
   i:hover {
-  color: #e36955;
+  color: #D7B557;
 }
 .header-area
   .header-top-action
@@ -388,7 +388,7 @@ a:hover {
 
 /*=== header-top ====*/
 .header-area .header-top {
-  background-color: #fff;
+  background-color: black;
 }
 .header-area .header-top .ostion-top-wrap {
   display: -webkit-flex;
@@ -515,12 +515,12 @@ a:hover {
   left: 0;
   top: 120%;
   min-width: 230px;
-  background-color: #fff;
+  background-color: #E0E0E0;
   -webkit-border-radius: 0 0 2px 2px;
   -moz-border-radius: 0 0 2px 2px;
   border-radius: 0 0 2px 2px;
   z-index: 3;
-  -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 20px 40px rgba(140, 15, 156, 0.1);
   -moz-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   opacity: 0;
@@ -600,7 +600,7 @@ a:hover {
   ul
   li.active
   > a {
-  color: #424242;
+  color: #D7B557;
   margin-left: 0;
 }
 .header-area
@@ -613,7 +613,7 @@ a:hover {
   ul
   li
   a {
-  color: #818181;
+  color: #D7B557;
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 500;
@@ -640,7 +640,7 @@ a:hover {
   content: "";
   height: 1px;
   width: 0;
-  background: #424242;
+  background: #750f70;
   position: absolute;
   bottom: 18px;
   right: 0;
@@ -660,7 +660,7 @@ a:hover {
   ul
   li
   a:hover {
-  color: #424242;
+  color: #BDBDBD;
 }
 .header-area
   .header-top
@@ -1816,8 +1816,8 @@ a:hover {
   .video-play-btn {
   font-size: 13px;
   cursor: pointer;
-  background: #f1ae44;
-  color: #fff;
+  background: #D7B557;
+  color: #750f70;
   font-weight: 600;
   width: 45px;
   height: 54px;
@@ -1827,6 +1827,7 @@ a:hover {
   left: 50%;
   text-align: center;
   padding-left: 5px;
+  clip-path: polygon(100% 52%, 0 0, 0 100%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -1853,18 +1854,19 @@ a:hover {
   left: 0;
   z-index: -1;
   background: #f1ae44;
-  -webkit-transform-origin: bottom left;
+  clip-path: polygon(100% 52%, 0 0, 0 100%);
+  /* -webkit-transform-origin: bottom left;
   transform-origin: bottom left;
-  -webkit-transform: skew(-12deg, 0deg);
-  -moz-transform: skew(-12deg, 0deg);
-  -ms-transform: skew(-12deg, 0deg);
-  -o-transform: skew(-12deg, 0deg);
-  transform: skew(-12deg, 0deg);
+  -webkit-transform: skew(0deg, 0deg);
+  -moz-transform: skew(0deg, 0deg);
+  -ms-transform: skew(0deg, 0deg);
+  -o-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
   -webkit-transition: 0.3s ease-in;
   -moz-transition: 0.3s ease-in;
   -ms-transition: 0.3s ease-in;
   -o-transition: 0.3s ease-in;
-  transition: 0.3s ease-in;
+  transition: 0.3s ease-in; */
 }
 .entry-area
   .entry-static-wrap
@@ -1876,7 +1878,7 @@ a:hover {
   .entry-static-box
   .entry-video-img
   .video-play-btn:hover:after {
-  background-color: #e36955;
+  background-color: red;
 }
 
 /*=== entry-static-box2 ===*/
@@ -1932,10 +1934,10 @@ a:hover {
   opacity: 0.8;
 }
 .hiw-area .hiw-item .hiw-item-img-box.hiw-bg1:after {
-  background-color: #50bac3;
+  background-color: #D7B557;
 }
 .hiw-area .hiw-item .hiw-item-img-box.hiw-bg2:after {
-  background-color: #e36955;
+  background-color: #CE93D8;
 }
 .hiw-area .hiw-item .hiw-item-img-box .hiw-title {
   text-align: center;
@@ -1966,7 +1968,7 @@ a:hover {
 }
 .hiw-area .hiw-item .hiw-item-img-box:hover .hiw-btn-box .theme-btn,
 .hiw-area .hiw-item .hiw-item-img-box:hover .hiw-btn-box .theme-btn:after {
-  background-color: #e36955;
+  background-color: #750f70;
 }
 /*===================================
     SERVICE AREA
@@ -2141,11 +2143,11 @@ a:hover {
 }
 .service-area .button-shared .theme-btn,
 .service-area .button-shared .theme-btn:after {
-  background-color: #e36955;
+  background-color: #D7B557;
 }
 .service-area .button-shared .theme-btn:hover,
 .service-area .button-shared .theme-btn:hover:after {
-  background-color: #f1ae44;
+  background-color: #750f70;
 }
 
 /* Heartbeat frame*/

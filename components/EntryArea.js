@@ -45,7 +45,7 @@ class EntryArea extends Component {
                         className="mfp-iframe video-play-btn"
                         title="Play Video"
                       >
-                        <i className="fa fa-play"></i>
+                        {/* <i className="fa fa-play"></i> */}
                       </div>
                     </div>
                   </div>
